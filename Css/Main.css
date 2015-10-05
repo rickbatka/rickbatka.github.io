@@ -4,10 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-html,
-body,
-ul,
-ol {
+html, body, ul, ol, h1, h2, h3, h4 {
   margin: 0;
   padding: 0; }
 
@@ -40,6 +37,44 @@ ol {
   font-style: normal; }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: aller_lightregular; }
+  margin: 0 auto;
+  padding: 15px 25px;
+  max-width: 1024px;
+  font-family: aller_lightregular;
+  color: #454545; }
+  @media (min-width: 767px) {
+    body {
+      padding: 40px 50px; } }
+
+h1, h2, h3, h4 {
+  color: #115766; }
+
+h1.jumbo {
+  font-size: 5em; }
+
+#topbar #contact-list {
+  visibility: hidden; }
+  @media (min-width: 767px) {
+    #topbar #contact-list {
+      visibility: inherit; } }
+  #topbar #contact-list li {
+    background-image: url("/Images/icon-sprite.png");
+    background-repeat: no-repeat;
+    background-position: -10px 0px;
+    padding-left: 35px;
+    list-style-type: none;
+    line-height: 1.8em; }
+  #topbar #contact-list li.web {
+    background-position: -10px -2px; }
+  #topbar #contact-list li.email {
+    background-position: -10px -72px; }
+
+/* Utility classes */
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.cb {
+  clear: both; }

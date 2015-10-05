@@ -1,7 +1,52 @@
 @import 'reset';
 @import 'fonts';
+@import 'breakpoints';
+$dark-blue: #115766;
+$light-blue: #5AA1AC;
+$dark-grey: #454545;
+
 body{
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 15px 25px;
+  max-width: 1024px;
   font-family: aller_lightregular;
+  color: $dark-grey;
+
+  @include above(small){
+    padding: 40px 50px;
+  }
 }
+
+h1, h2, h3, h4{
+  color: $dark-blue;
+}
+
+h1.jumbo{
+  font-size: 5em;
+}
+
+#topbar{
+  #contact-list{
+    visibility: hidden;
+
+    @include above(small){
+      visibility: inherit;
+    }
+
+    li{
+      background-image: url('/Images/icon-sprite.png');
+      background-repeat: no-repeat;
+      background-position: -10px 0px;
+      padding-left: 35px;
+      list-style-type: none;
+      line-height: 1.8em;
+    }
+    li.web{background-position: -10px -2px;}
+    li.email{background-position: -10px -72px;}
+  }
+}
+
+/* Utility classes */
+.fl{float: left;}
+.fr{float:right;}
+.cb{clear:both;}
