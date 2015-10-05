@@ -1,16 +1,18 @@
 @import 'reset';
 @import 'fonts';
 @import 'breakpoints';
+@import 'keyframes';
 $dark-blue: #115766;
 $light-blue: rgb(90, 161, 172);
 $light-blue-semi: rgba(90, 161, 172, 0.5);
 $dark-grey: #454545;
+$light-grey: #ECF4F4;
 
 body{
   margin: 0 auto;
   padding: 15px 25px;
   max-width: 1024px;
-  font-family: aller_lightregular;
+  font-family: aller_lightregular, sans-serif;
   color: $dark-grey;
 
   @include above(phone){
@@ -19,7 +21,8 @@ body{
 }
 
 h1, h2, h3, h4{
-  color: $dark-blue;
+  color: $light-blue;
+  font-weight: 100;
 }
 
 h1.jumbo{
@@ -65,15 +68,94 @@ img.me-image{
 
 div#col-left{
   width:100%;
-  @include above(phone){
-    width: 60%;
+  position: relative;
+  @include above(tablet){
+    float:left;
+    width: 70%;
+    padding-left:130px;
   }
 }
 
 div#col-right{
   width:100%;
-  @include above(phone){
-    width: 40%;
+  @include above(tablet){
+    float:left;
+    width: 30%;
+  }
+}
+
+div.past-job{
+  margin-top: 15px;
+  position: relative;
+  h2, h3{
+    color:$dark-grey;
+  }
+  .job-title{
+    font-family: allerbold;
+  }
+}
+
+div.tag-year{
+  display: none;
+  @include above(tablet){
+    display: inherit;
+    position: absolute;
+    top: 5px;
+    left: -80px;
+  }
+}
+
+div.skill{
+
+  @for $outer from 1 through 20{
+    ul:nth-child(#{$outer}){
+
+      @for $i from 1 through 5 {
+        li.y:nth-of-type(#{$i}) {
+          -webkit-animation-delay: ($outer + $i) * 0.1s;
+          animation-delay: ($outer + $i) * 0.1s;
+        }
+      }
+
+    }
+  }
+
+  ul{
+    float:right;
+    list-style-type: none;
+
+    li{
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    li.y{
+      background: $light-blue-semi;
+      -moz-animation-duration: .5s;
+      -webkit-animation-duration: .5s;
+      animation-duration: .5s;
+      -moz-animation-name: pop;
+      -webkit-animation-name: pop;
+      animation-name: pop;
+      animation-timing-function: ease-in-out;
+      @include keyframes(pop) {
+        0% {
+          transform: scale(0.1);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+
+        100% {
+          transform: scale(1.0);
+        }
+      }
+    }
+
+    li.n{background: $light-grey;}
   }
 }
 
