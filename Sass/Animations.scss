@@ -1,7 +1,7 @@
 
 @import "keyframes";
 @import "colors";
-@for $outer from 1 through 12{
+@for $outer from 1 through 14{
   div.skill:nth-child(#{$outer}){
     $seed: random(6);
     @for $i from 1 through 5 {
