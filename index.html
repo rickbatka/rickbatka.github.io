@@ -4,79 +4,140 @@
   <title>Rick Batka - Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Css/Main.css" />
+  <link rel="stylesheet" href="Css/Animations.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
+  <div id="main-container">
+    <div id="topbar">
+      <div class="fr">
+        <ul id="contact-list" class="not-phone accent-heavy">
+          <li class="web"><a href="http://rickbatka.github.io">http://rickbatka.github.io</a></li>
+          <li class="email">rick.batka at gmail dot com</li>
+        </ul>
+      </div>
 
-  <div id="topbar">
-
-    <div class="fr">
-      <ul id="contact-list" class="not-phone accent-heavy">
-        <li class="web"><a href="http://rickbatka.github.io">http://rickbatka.github.io</a></li>
-        <li class="email">rick.batka at gmail dot com</li>
-      </ul>
+      <h1 class="jumbo accent-heavy">Rick Batka</h1>
+      <h2 class="accent-heavy not-mini">Programmer / Web Developer</h2>
     </div>
 
-    <h1 class="jumbo accent-heavy">Rick Batka</h1>
-    <h2 class="accent-heavy">Programmer / Web Developer</h2>
+    <hr class="soft-break cb" />
+
+    <p class="accent-heavy" style="margin: 25px 0px;">
+      <img src="/Images/me.png" class="me-image fl not-phone" />
+      I'm a programmer who enjoys both back- and front-end development.
+      I've been developing software and web applications professionally since 2007, and in my
+      free time I love to build games, tinker with new frameworks, and read about all things programming.
+      My core strengths are more on the side of server-side programming (and I've worked on some pretty huge systems),
+      but I'm also a capable front-end developer, with a solid grasp on CSS, HTML, and various
+      frameworks like Angular, Knockout, and Foundation.
+    </p>
+
+    <hr class="soft-break cb" />
+
+    <div id="col-left">
+      <h1 id="employment">Employment</h1>
+      <div class="timeline-entry">
+        <h2 class="job-name">AltSource, Inc.</h2>
+        <h3 class="heavyweight">Programmer / Technical Lead</h3>
+        <div class="tag-year" style="left:-150px;"><h2>2013 - Now</h2></div>
+          <p>
+            I started here as a developer and moved up to technical lead of a small development team after one year.
+            My team built large-scale line-of-business applications, websites, web services,
+            and native iOS, Android and Windows applications.
+          </p>
+          <p>
+            At AltSource I learned the importance of the SOLID principles and unit testing as they pertain to very large
+            software projects. I learned to be unafraid of refactoring and honed the skills of continuous improvement
+            while delivering features at a steady clip. I led the team from within as both team lead and
+            individual contributor, while evangelizing best practices and good design.
+          </p>
+          <p>
+            As team lead, I worked closely with Apple to onboard the iPhone line of products
+            into Consumer Cellular's ecommerce business (<a href="http://www.consumercellular.com/iphone">www.consumercellular.com/iphone</a>).
+            I also spearheaded the design and implementation of their forthcoming fully responsive
+            shopping experience.
+          </p>
+          <p class="stack">Stack: C#, MSSQL, Razor, jQuery, Knockout, Angular</p>
+          <a href="http://www.altsrc.net" class="accent-light" target="_blank">www.altsrc.net</a>
+      </div>
+      <div class="timeline-entry">
+        <h2>American Registry</h2>
+        <h3 class="heavyweight">Programmer / Web Developer</h3>
+        <div class="tag-year" style="left:-150px;"><h2>2010 - 2013</h2></div>
+          <p>
+            Moving quickly from web developer to jack-of-all-trades, full-stack developer,
+            my duties here involved back-end development, database administration, release management,
+            and new feature discovery and design.
+          </p>
+          <p>
+            At American registry I learned how to be productive as an independent developer. On this small team
+            working on massive systems, I learned the importance of being transparent, accountable, and extremely
+            productive as a remote developer.
+          </p>
+          <p class="stack">Stack: CakePHP, MySQL, Debian</p>
+          <a href="http://www.americanregistry.com" class="accent-light" target="_blank">www.americanregistry.com</a>
+      </div>
+
+    </div>
+
+    <div id="col-right">
+
+      <br class="phone-only" /><hr class="soft-break phone-only" />
+
+      <h1 id="skills">Skills</h1>
+
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <br />
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+      <div class="skill">
+        C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
+      </div>
+
+      <br />
+
+      <hr class="soft-break phone-only" />
+      <h1 id="education">Education</h1>
+
+      <div class="timeline-entry">
+        <h2>2004-2008</h2>
+        <h3 class="heavyweight">B.S., Computer Programming and Information Sciences</h3>
+        <h2>Shepherd University</h2>
+        <a href="http://www.shepherd.edu" class="accent-light" target="_blank">www.shepherd.edu</a>
+      </div>
+
+
+    </div>
+    <br class="cb" />
 
   </div>
 
-  <hr class="soft-break cb" />
+  <!-- <div id="mobile-nav">
+    <ul>
+      <li><a href="#employment">Jobs</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">School</a></li>
+      <li><a href="#topbar">Top</a></li>
+    </ul>
+  </div> -->
 
-  <p class="accent-heavy" style="margin: 25px 0px;">
-    <img src="/Images/me.png" class="me-image fl not-phone" />
-TODO rewrite
-    I'm a self-starting programmer who's most at home in a small team environment.
-    I've been working from home full-time since 2010 and I know how to take action without needing to be told what to do.
-    I know what it means to take ownership of deadlines (and mistakes!), and I'd like to bring that attitude to a more tightly knit group.
-    I'm experienced and excited to expand into new languages and architectures.
-    I love to learn, and I never want to stop expanding my programming skillset.
-  </p>
-
-  <hr class="soft-break cb" />
-
-  <div id="col-left">
-    <h1>Employment</h1>
-    <div class="past-job">
-      <h2 class="job-name">AltSource, Inc.</h2>
-      <h3 class="job-title">Programmer / Technical Lead</h3>
-      <div class="tag-year" style="left:-150px;"><h2>2013 - Now</h2></div>
-        <p>
-          askd kjsaf dsjkf dskfj kjsdf kdjf ksjd fskfksdkjf
-          hasd asf smdf dsjfgdsjhf dsjhf dsf
-          sdf dgsfgdsjfghjs dfsjd fg  dsfsd fds fjdsfg dsjfhg
-          sdkf usdj fgjsd fgjshd fgjsdhfgsdj fgdsj fjhds fghsjd fgjsdhfg sd
-          f'ehfwej fgjaejf gejrf gdjhfg jhfew fgewhj g
-        </p>
-        <a href="http://www.altsrc.net" class="accent-light" target="_blank">www.altsrc.net</a>
-    </div>
-    <div class="past-job">
-      <h2 class="job-name">AltSource, Inc.</h2>
-      <h3 class="job-title">Programmer / Technical Lead</h3>
-      <div class="tag-year" style="left:-150px;"><h2>2013 - Now</h2></div>
-        <p>
-          askd kjsaf dsjkf dskfj kjsdf kdjf ksjd fskfksdkjf
-          hasd asf smdf dsjfgdsjhf dsjhf dsf
-          sdf dgsfgdsjfghjs dfsjd fg  dsfsd fds fjdsfg dsjfhg
-          sdkf usdj fgjsd fgjshd fgjsdhfgsdj fgdsj fjhds fghsjd fgjsdhfg sd
-          f'ehfwej fgjaejf gejrf gdjhfg jhfew fgewhj g
-        </p>
-        <a href="http://www.altsrc.net" class="accent-light" target="_blank">www.altsrc.net</a>
-    </div>
-  </div>
-
-  <div id="col-right">
-    <h1>Skills</h1>
-
-    <div class="skill">
-      C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
-      C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
-      C# / .Net <ul><li class="y"></li><li class="y"></li><li class="y"></li><li class="y"></li><li class="n"></li></ul>
-    </div>
-
-  </div>
-  <br class="cb" />
 </body>
 
 </html>
