@@ -19,44 +19,44 @@ div.skill:nth-child(1) li.y:nth-of-type(5) {
   animation-delay: 0.6s; }
 
 div.skill:nth-child(2) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
-
-div.skill:nth-child(2) li.y:nth-of-type(2) {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s; }
-
-div.skill:nth-child(2) li.y:nth-of-type(3) {
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s; }
-
-div.skill:nth-child(2) li.y:nth-of-type(4) {
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s; }
-
-div.skill:nth-child(2) li.y:nth-of-type(5) {
-  -webkit-animation-delay: 0.9s;
-  animation-delay: 0.9s; }
-
-div.skill:nth-child(3) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
-
-div.skill:nth-child(3) li.y:nth-of-type(2) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s; }
 
-div.skill:nth-child(3) li.y:nth-of-type(3) {
+div.skill:nth-child(2) li.y:nth-of-type(2) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s; }
 
-div.skill:nth-child(3) li.y:nth-of-type(4) {
+div.skill:nth-child(2) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s; }
 
-div.skill:nth-child(3) li.y:nth-of-type(5) {
+div.skill:nth-child(2) li.y:nth-of-type(4) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s; }
+
+div.skill:nth-child(2) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+div.skill:nth-child(3) li.y:nth-of-type(1) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+div.skill:nth-child(3) li.y:nth-of-type(2) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+div.skill:nth-child(3) li.y:nth-of-type(3) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+div.skill:nth-child(3) li.y:nth-of-type(4) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+div.skill:nth-child(3) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
 
 div.skill:nth-child(4) li.y:nth-of-type(1) {
   -webkit-animation-delay: 0.6s;
@@ -99,64 +99,64 @@ div.skill:nth-child(5) li.y:nth-of-type(5) {
   animation-delay: 1.1s; }
 
 div.skill:nth-child(6) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s; }
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
 
 div.skill:nth-child(6) li.y:nth-of-type(2) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
-
-div.skill:nth-child(6) li.y:nth-of-type(3) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s; }
-
-div.skill:nth-child(6) li.y:nth-of-type(4) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
-
-div.skill:nth-child(6) li.y:nth-of-type(5) {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s; }
-
-div.skill:nth-child(7) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
-
-div.skill:nth-child(7) li.y:nth-of-type(2) {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s; }
-
-div.skill:nth-child(7) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s; }
 
-div.skill:nth-child(7) li.y:nth-of-type(4) {
+div.skill:nth-child(6) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; }
 
-div.skill:nth-child(7) li.y:nth-of-type(5) {
+div.skill:nth-child(6) li.y:nth-of-type(4) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s; }
 
-div.skill:nth-child(8) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
+div.skill:nth-child(6) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
 
-div.skill:nth-child(8) li.y:nth-of-type(2) {
+div.skill:nth-child(7) li.y:nth-of-type(1) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s; }
 
-div.skill:nth-child(8) li.y:nth-of-type(3) {
+div.skill:nth-child(7) li.y:nth-of-type(2) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s; }
 
-div.skill:nth-child(8) li.y:nth-of-type(4) {
+div.skill:nth-child(7) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s; }
 
-div.skill:nth-child(8) li.y:nth-of-type(5) {
+div.skill:nth-child(7) li.y:nth-of-type(4) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s; }
+
+div.skill:nth-child(7) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+div.skill:nth-child(8) li.y:nth-of-type(1) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+div.skill:nth-child(8) li.y:nth-of-type(2) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+div.skill:nth-child(8) li.y:nth-of-type(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+div.skill:nth-child(8) li.y:nth-of-type(4) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+div.skill:nth-child(8) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
 
 div.skill:nth-child(9) li.y:nth-of-type(1) {
   -webkit-animation-delay: 0.5s;
@@ -179,24 +179,64 @@ div.skill:nth-child(9) li.y:nth-of-type(5) {
   animation-delay: 0.9s; }
 
 div.skill:nth-child(10) li.y:nth-of-type(1) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
-
-div.skill:nth-child(10) li.y:nth-of-type(2) {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s; }
-
-div.skill:nth-child(10) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s; }
 
-div.skill:nth-child(10) li.y:nth-of-type(4) {
+div.skill:nth-child(10) li.y:nth-of-type(2) {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; }
 
-div.skill:nth-child(10) li.y:nth-of-type(5) {
+div.skill:nth-child(10) li.y:nth-of-type(3) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s; }
+
+div.skill:nth-child(10) li.y:nth-of-type(4) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+div.skill:nth-child(10) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s; }
+
+div.skill:nth-child(11) li.y:nth-of-type(1) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+div.skill:nth-child(11) li.y:nth-of-type(2) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+div.skill:nth-child(11) li.y:nth-of-type(3) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+div.skill:nth-child(11) li.y:nth-of-type(4) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+div.skill:nth-child(11) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+div.skill:nth-child(12) li.y:nth-of-type(1) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+div.skill:nth-child(12) li.y:nth-of-type(2) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+div.skill:nth-child(12) li.y:nth-of-type(3) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+div.skill:nth-child(12) li.y:nth-of-type(4) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+div.skill:nth-child(12) li.y:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
 
 div.skill li.y {
   background: rgba(90, 161, 172, 0.5);
