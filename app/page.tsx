@@ -30,7 +30,7 @@ export default function Home() {
             I wanted to explore how one might implement a melee lock-on system, while still supporting seamless and smooth transition to ADS gun combat. For this, I eventually settled on
             what is shown in the video: lock-on effect is simply toggled off when aiming the gun. I found this felt natual when switching from <em>Dark Souls</em> style melee combat to
             <em>Gears of War</em> style gun combat. I also wanted to explore the UE5 animation blending sytem and hone my abilities in creating fluid moment-to-moment gameplay
-            with &quot;juicy&ldquo; game-feel, tight controls, and smooth transitions.
+            with &ldquo;juicy&rdquo; game-feel, tight controls, and smooth transitions.
           </p>
           <h2 className="text-4xl">Features</h2>
           <p><strong>Melee Combo System with Pre-emption: </strong>Melee attacks are locked in, until a preemption window where they can be cancelled. Subsequent attack inputs during the preemption window continue the combo. Animators can adjust the preemption window in the montage timeline.</p>
@@ -48,7 +48,7 @@ export default function Home() {
           <p className="italic text-center">Unreal Engine 4, C++. Team Size: 2.</p>
           <h2 className="text-4xl">Description</h2>
           <p>
-            Improbable's SpatialOS was a scalable game and simulation back-end for massive scale interactive experiences, often showcasing 1 million+
+            Improbable&apos;s SpatialOS was a scalable game and simulation back-end for massive scale interactive experiences, often showcasing 1 million+
             complex actors being simulated in real time. Improbable needed a way to showcase interoperability with game engines in their scale demos - in this case, Unreal Engine 4.
             This particular demo used open source city data to show 500,000 civilians going about their normal pattern-of-life in a real city.
             Civilians would enter and exit buildings and react to emergency situations by seeking shelter before returning to their normal pattern of life.
@@ -60,20 +60,20 @@ export default function Home() {
           <h2 className="text-4xl">Features</h2>
           <p>
             <strong>500k Complex Actors Simulated: </strong>
-            Using SpatialOS's distributed Entity Component System, we were able to write agent behaviors that scaled to massive numbers. By dividing the world spacially (a.k.a. Geo-Sharding), we could scale nearly indefinitely.
+            Using SpatialOS&apos;s distributed Entity Component System, we were able to write agent behaviors that scaled to massive numbers. By dividing the world spacially (a.k.a. Geo-Sharding), we could scale nearly indefinitely.
             </p>
           <p>
             <strong>Unreal Plugin Architecture: </strong>We built a general-purpose plugin for viewing large SpatialOS simulation in Unreal. The plugin took over the networking
-            for any proxy actors controlled by SpatialOS. It featured a dynamic property mapping GUI that utilized Unreal's reflection system to make it easy to
+            for any proxy actors controlled by SpatialOS. It featured a dynamic property mapping GUI that utilized Unreal&apos;s reflection system to make it easy to
             map SpatialOS data fields to their Unreal UPROPERTY counterparts.
           </p>
           <p>
             <strong>5k Animated Entities on Screen in Unreal at 60fps: </strong>
             We used instanced static meshes with pre-baked animations to render thousands of entities in Unreal. With a handful of skinned meshes and a small set of 
-            pre-baked animations, the visual variability was convincing despite no true Unreal "Actors" in the scene.
+            pre-baked animations, the visual variability was convincing despite no true Unreal &ldquo;Actors&rdquo; in the scene.
           </p>
           <p>
-            <strong>Interest-Based Data Culling: </strong>We used SpatialOS' "killer feature" - its infintely scalable spatial querying system - to limit the entities
+            <strong>Interest-Based Data Culling: </strong>We used SpatialOS&apos; &ldquo;killer feature&rdquo; - its infintely scalable spatial querying system - to limit the entities
             in view to the closest 5,000 to the camera. The entities in view were seamlessly loaded and destroyed as the camera moved around the world.
           </p>
           <p>
