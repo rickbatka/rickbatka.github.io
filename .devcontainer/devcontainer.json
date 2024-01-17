@@ -12,6 +12,7 @@
 		"ghcr.io/devcontainers-contrib/features/typescript": "latest"
 	},
 
+	"appPort": ["3000:3000", "8080:8080"],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": ["3000:3000", "8080:8080"]
 

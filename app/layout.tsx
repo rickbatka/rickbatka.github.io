@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Outfit } from 'next/font/google'
+import { Outfit, Bebas_Neue, Lexend, Merriweather_Sans } from 'next/font/google'
 import './globals.css'
 
-const outfitFont = Outfit({subsets: ['latin']});
+const fontFamily = Merriweather_Sans({weight: "400", subsets: ["latin"]}, );
 
 export const metadata: Metadata = {
   title: 'Rick Batka',
-  description: 'Resume for Rick Batka',
+  description: 'Portfolio and Resume for Rick Batka',
 }
 
 export default function RootLayout({
@@ -14,9 +14,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  
   return (
     <html lang="en">
-      <body className={`${outfitFont.className} text-white`}>{children}</body>
+      <body className={`${fontFamily.className} text-white`}>
+        {children}
+      </body>
     </html>
   )
 }
